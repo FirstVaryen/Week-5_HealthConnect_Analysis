@@ -1,0 +1,18 @@
+# HealthConnect Week 5 - Data Analytics track
+# Developed on Python 3.14. Create an environment and install:
+#   python -m venv .venv
+#   .venv\Scripts\activate      (Windows)
+#   pip install -r requirements.txt
+#
+# requirements-full.txt has the exact frozen environment (all transitive deps).
+
+pandas==3.0.5
+numpy==2.5.2
+matplotlib==3.11.1
+seaborn==0.13.2
+openpyxl==3.1.5
+jupyterlab==4.6.3
+
+# For rebuilding the report PDFs (scripts/build_report_pdfs.py) only, not the analysis:
+markdown==3.10.3
+xhtml2pdf==0.2.18
