@@ -16,10 +16,9 @@
 | `notebooks/HealthConnect_Week5_Analysis.ipynb` | Main deliverable: the Initial HealthConnect Analytics Notebook (data prep, EDA, confounding check, 5 KPIs, dashboard, insights, recommendations, limitations) |
 | `reports/CrossTrack_Collaboration.md` / `.pdf` | The simulated Data Analytics to Data Science handover (brief Section 9) |
 | `reports/Week5_Project_Summary.md` / `.pdf` | Part 4, the Week 5 Project Summary |
-| `outputs/dashboard/HealthConnect_Week5_Dashboard.pbix` | Power BI dashboard (6 panels + 4 KPI cards, dark-blue theme built into the file) |
-| `outputs/dashboard/HealthConnect_Week5_Dashboard.pdf` | Static export of the Power BI dashboard |
-| `outputs/dashboard/HealthConnect_Week5_Dashboard_Python.png` | The same dashboard built in Python (matplotlib) |
-| `outputs/figures/` | Individual EDA and KPI charts saved from the notebook |
+| `outputs/dashboard/HealthConnect_Week5_Dashboard.pbix` | Power BI dashboard (4 KPI cards + 6 panels, dark-blue theme built into the file) |
+| `outputs/dashboard/HealthConnect_Week5_Dashboard.pdf` / `.png` | Static exports of the Power BI dashboard, for viewing without Power BI Desktop |
+| `outputs/figures/` | The 11 individual EDA and KPI charts saved from the notebook (same dark theme) |
 | `data/HealthConnect_Appointment_Data.csv` | Original dataset, never modified |
 | `data/HealthConnect_Data_Dictionary.xlsx` | Original data dictionary |
 | `data/processed/healthconnect_appointments_prepared.csv` | Cleaned and derived dataset produced by the notebook (26 columns) |
@@ -46,8 +45,8 @@ dataset to `data/processed/`. The original files are never modified.
 
 To open the Power BI dashboard, open `outputs/dashboard/HealthConnect_Week5_Dashboard.pbix`
 in Power BI Desktop. It reads `data/processed/healthconnect_appointments_prepared.csv`, and the
-dark-blue theme is saved inside the file. `HealthConnect_Week5_Dashboard.pdf` is a static export
-for anyone without Power BI.
+dark-blue theme is saved inside the file. `HealthConnect_Week5_Dashboard.pdf` / `.png` are static
+exports for anyone without Power BI.
 
 To rebuild the report PDFs after editing the markdown: `python scripts/build_report_pdfs.py`.
 

@@ -20,10 +20,9 @@ Week 4 left three jobs for Week 5:
 - Ran the EDA across all eight dimensions the brief asks for: appointment characteristics, patient characteristics, previous history, reminders, waiting time, distance, cancellations, and no-show outcomes.
 - Ran a confounding check. The three strongest variables turned out to be independent risk factors, not one signal showing up three times.
 - Calculated, charted, and interpreted all five KPIs.
-- Built a six-panel dashboard covering the headline number and the five KPIs, first in Python.
+- Built a Power BI dashboard: four KPI cards and six panels covering the headline number and the five KPIs, on a dark theme, with a sort-order-corrected export of the processed data behind it. PDF and PNG exports included.
 - Wrote up five business insights with what each one means for the clinic, five recommendations, and a limitations section.
 - Identified and prepared the Data Analytics to Data Science handover (see `CrossTrack_Collaboration.md`).
-- Rebuilt the same dashboard in Power BI as a second version, using a sort-order-corrected export of the processed data.
 
 ## 3. Key findings
 
@@ -43,7 +42,7 @@ Week 4 left three jobs for Week 5:
 
 - Rows with a missing distance are excluded from distance KPIs, not filled in. Filling them would add made-up values into a variable that actually predicts no-shows. This carries over from the Week 4 plan and still holds.
 - `appointment_outcome` stays as three classes. Week 4 argued this on principle; Week 5 has the KPI 5 evidence to back it.
-- I built the dashboard in Python first because the analysis was already there, then rebuilt it in Power BI rather than picking only one tool.
+- The individual analysis charts are done in Python inside the notebook, next to the interpretation for each one. The summary dashboard is done in Power BI, since that is the more presentation-ready tool and it was the Week 4 intent.
 
 ## 6. Changes to the Week 4 approach
 
